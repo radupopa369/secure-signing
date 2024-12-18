@@ -1,0 +1,110 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "python39@latest": {
+      "last_modified": "2024-12-08T11:15:23Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/93dc9803a1ee435e590b02cde9589038d5cc3a4e#python39",
+      "source": "devbox-search",
+      "version": "3.9.21",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0ibf9pg21ab06ry5844rb7l4kchgszmf-python3-3.9.21",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0ibf9pg21ab06ry5844rb7l4kchgszmf-python3-3.9.21"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3xjj40pqpw1zb3gxpv2py1qzzik8wj6r-python3-3.9.21",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/4zrw1gwyvys0lphphklz6hbjm4pkyx2r-python3-3.9.21-debug"
+            }
+          ],
+          "store_path": "/nix/store/3xjj40pqpw1zb3gxpv2py1qzzik8wj6r-python3-3.9.21"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/px3r9i6jz2fyacb0aqk599rkh8wdbpkg-python3-3.9.21",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/px3r9i6jz2fyacb0aqk599rkh8wdbpkg-python3-3.9.21"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nwl35yf2g23hp5k1rz7ij5g0sx4fs5dw-python3-3.9.21",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/1cld36zy5x97jb6c8y7qgh5gvzg0411l-python3-3.9.21-debug"
+            }
+          ],
+          "store_path": "/nix/store/nwl35yf2g23hp5k1rz7ij5g0sx4fs5dw-python3-3.9.21"
+        }
+      }
+    },
+    "vaultenv@latest": {
+      "last_modified": "2024-03-08T13:51:52Z",
+      "resolved": "github:NixOS/nixpkgs/a343533bccc62400e8a9560423486a3b6c11a23b#vaultenv",
+      "source": "devbox-search",
+      "version": "0.16.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7dsskvh66mai5d5h9qchbjhji1kd9r0j-vaultenv-0.16.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7dsskvh66mai5d5h9qchbjhji1kd9r0j-vaultenv-0.16.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3h8hv5hwsjmm4f4m9kdayskx9lg9y4z1-vaultenv-0.16.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3h8hv5hwsjmm4f4m9kdayskx9lg9y4z1-vaultenv-0.16.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mz99rmxbkx6m9diffc653s29221wyli7-vaultenv-0.16.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mz99rmxbkx6m9diffc653s29221wyli7-vaultenv-0.16.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rbpdpadwy5p1913nvrzqip0sqq6l20b8-vaultenv-0.16.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rbpdpadwy5p1913nvrzqip0sqq6l20b8-vaultenv-0.16.0"
+        }
+      }
+    }
+  }
+}
